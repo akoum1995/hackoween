@@ -1,1 +1,57 @@
 /* You can add global styles to this file, and also import other style files */
+// @import "assets/scss/material-kit.scss";
+// body {
+//   margin: 0;
+// }
+
+// html, body { height: 100%; }
+// body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+body {
+  padding-right:0px !important;
+}
+.modal-backdrop {
+  z-index: 1030 !important;
+}
+
+.modal-dialog {
+  margin: 2px auto;
+  z-index: 1100 !important;
+}
+.tns-nav{
+display:none !important;
+}
+#tns1-ow{
+text-align: center !important;
+}
+
+button[data-action="stop"] {
+display: none !important;
+}
+.mt-11{
+margin-top:11px;
+}
+.mt-30{
+margin-top:30px;
+}
+.mt-40{
+margin-top:40px;
+}
+.mt10{
+margin-top:10px !important;
+}
+.pt10{
+padding-top:10px !important;
+}
+.modal .modal-dialog {
+margin-top: 100px;
+margin-bottom: 200px;
+}
+.pt-7{
+padding-top:7px;
+}
+.mt-18{
+padding-top:18px;
+}
+.desc-size{
+font-size: 1.3rem !important;
+}

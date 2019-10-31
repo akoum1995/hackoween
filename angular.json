@@ -28,9 +28,15 @@
               "src/assets"
             ],
             "styles": [
+              "./src/assets/css/bootstrap.min.css",
+              "src/assets/company/sass/material-dashboard.scss",
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/hammerjs/hammer.min.js",
+              "node_modules/bootstrap-notify/bootstrap-notify.js",
+              "node_modules/perfect-scrollbar/dist/perfect-scrollbar.min.js"
+            ]
           },
           "configurations": {
             "production": {

@@ -1,0 +1,713 @@
+/*=======================================================================
+* Template Name: Oficiona
+* Template URI: http://codepassenger.com/html/Oficiona
+* Author: CodePassenger
+* Author URI: http://codepassenger.com/
+* Description: Job Board HTML Template
+* Version: 1.0
+* License: GPL v2 or later
+* License URI: http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+* Tags: html, template, Oficiona, Job, Job Board, bootstrap, codepassenger
+======================================================================= */
+/* Table of content
+--------------------------------------------
+
+	01.0 General Style
+	02.0 Banner Style
+	03.0 Search Style
+	04.0 Breadcrumb Style
+	05.0 Category Style
+	06.0 Job Style
+	07.0 Candidate Style
+	08.0 Company Style
+	09.0 App Style
+	10.0 Form Style
+	11.0 Header Style
+	12.0 Nav Style
+	13.0 Animated-number Style
+	14.0 Call-to-action Style
+	15.0 Testimonial Style
+	16.0 Advice Style
+	17.0 Pricing Style
+	18.0 Progress-bar Style
+	19.0 Pagination Style
+	20.0 Footer Style
+	21.0 Employer Style
+	22.0 About Style
+	23.0 Working Process Style
+	24.0 FAQ Style
+	25.0 Blog Style
+	26.0 Contact Style
+	27.0 Payment Style
+
+-------------------------------------------*/
+/*----------------------------------------------
+	1.0 General Style
+-----------------------------------------------*/
+html {
+  font-size: 62.5%;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.4rem;
+  line-height: 1.85;
+  position: relative;
+}
+
+h4,
+h5 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  line-height: 1.3;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: inherit;
+}
+
+h4 {
+  font-size: 2.8rem;
+}
+
+h5 {
+  font-size: 2.2rem;
+}
+
+p {
+  color: inherit;
+  line-height: 1.85;
+  font-size: 1.4rem;
+}
+
+p:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+a {
+  -webkit-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+a,
+a:hover,
+a:focus {
+  text-decoration: none;
+  display: inline-block;
+  color: inherit;
+  outline: none;
+}
+
+.primary-bg {
+  background: #246df8;
+}
+
+/*------------------------------------------
+	Responsive
+-------------------------------------------*/
+
+@media all and (max-width: 767px) {
+  h4 {
+    font-size: 2.4rem;
+  }
+}
+
+/*---------------------------------------------
+	02.0 Banner Style
+---------------------------------------------*/
+
+/*---------------------------------------------
+	03.0 Search Style
+---------------------------------------------*/
+
+.searchAndFilter .btn-light:not(:disabled):not(.disabled).active,
+.btn-light:not(:disabled):not(.disabled):active {
+  border-color: transparent;
+}
+
+.searchAndFilter .btn-light:not(:disabled):not(.disabled).active,
+.btn-light:not(:disabled):not(.disabled):active {
+  color: #6f7484;
+  background: transparent;
+}
+
+.searchAndFilter-3 .search-form .btn-light:not(:disabled):not(.disabled):active {
+  border-bottom: 0;
+}
+
+/*---------------------------------------------
+	Category Style
+---------------------------------------------*/
+
+.job-filter-wrapper .job-filter-dropdown .btn-light:not(:disabled):not(.disabled):active:focus, .candidate-filter-wrapper .job-filter-dropdown .btn-light:not(:disabled):not(.disabled):active:focus, .employer-filter-wrapper .job-filter-dropdown .btn-light:not(:disabled):not(.disabled):active:focus, .job-filter-wrapper .candidate-filter-dropdown .btn-light:not(:disabled):not(.disabled):active:focus, .candidate-filter-wrapper .candidate-filter-dropdown .btn-light:not(:disabled):not(.disabled):active:focus, .employer-filter-wrapper .candidate-filter-dropdown .btn-light:not(:disabled):not(.disabled):active:focus, .job-filter-wrapper .employer-filter-dropdown .btn-light:not(:disabled):not(.disabled):active:focus, .candidate-filter-wrapper .employer-filter-dropdown .btn-light:not(:disabled):not(.disabled):active:focus, .employer-filter-wrapper .employer-filter-dropdown .btn-light:not(:disabled):not(.disabled):active:focus {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.job-filter-wrapper .job-filter-dropdown .btn:not(:disabled):not(.disabled), .candidate-filter-wrapper .job-filter-dropdown .btn:not(:disabled):not(.disabled), .employer-filter-wrapper .job-filter-dropdown .btn:not(:disabled):not(.disabled), .job-filter-wrapper .candidate-filter-dropdown .btn:not(:disabled):not(.disabled), .candidate-filter-wrapper .candidate-filter-dropdown .btn:not(:disabled):not(.disabled), .employer-filter-wrapper .candidate-filter-dropdown .btn:not(:disabled):not(.disabled), .job-filter-wrapper .employer-filter-dropdown .btn:not(:disabled):not(.disabled), .candidate-filter-wrapper .employer-filter-dropdown .btn:not(:disabled):not(.disabled), .employer-filter-wrapper .employer-filter-dropdown .btn:not(:disabled):not(.disabled) {
+  height: 40px;
+}
+
+.job-view-filter .btn:not(:disabled):not(.disabled), .candidate-view-filter .btn:not(:disabled):not(.disabled), .employer-view-filter .btn:not(:disabled):not(.disabled) {
+  height: 40px;
+}
+
+.job-view-filter .btn-light:not(:disabled):not(.disabled):active:focus, .candidate-view-filter .btn-light:not(:disabled):not(.disabled):active:focus, .employer-view-filter .btn-light:not(:disabled):not(.disabled):active:focus {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+/*---------------------------------------------
+	04.0 Breadcrumb Style
+---------------------------------------------*/
+
+/*---------------------------------------------
+	05.0 Category Style
+---------------------------------------------*/
+
+/*---------------------------------------------
+	06.0 Job Style
+---------------------------------------------*/
+
+.explore-job .key-info ul::-webkit-scrollbar-thumb:window-inactive {
+  background: #dbe0e9;
+}
+
+/*---------------------------------------------
+	Job Details
+---------------------------------------------*/
+
+/*---------------------------------------------
+	Job Post
+---------------------------------------------*/
+
+@-moz-document url-prefix() {
+}
+
+/*------------------------------------------------------
+  TinyMCE Editor
+------------------------------------------------------*/
+
+/*---------------------------------------------
+	07.0 Candidate Style
+---------------------------------------------*/
+
+/*---------------------------------------------
+	Candidate Details
+---------------------------------------------*/
+
+.skill-and-profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-top: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.skill-and-profile label {
+  font-size: 1.4rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  margin-right: 10px;
+}
+.skills {
+  margin-bottom: 2%;
+}
+.skill-and-profile .skill a {
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  padding: 3px 15px;
+  margin-right: 5px;
+  border-radius: 3px;
+  background-image: -webkit-gradient(linear, left top, right top, from(#f9fbfe), to(#ffffff));
+  background-image: -webkit-linear-gradient(left, #f9fbfe, #ffffff);
+  background-image: -o-linear-gradient(left, #f9fbfe, #ffffff);
+  background-image: linear-gradient(to right, #f9fbfe, #ffffff);
+  cursor: default;
+}
+
+
+.skill-and-profile .social-profile a {
+  font-size: 1.4rem;
+  margin-right: 15px;
+  color: #828794;
+}
+
+.skill-and-profile .social-profile a:hover {
+  color: #246df8;
+}
+
+.details-section {
+  padding-left: 30px;
+}
+
+.details-section p {
+  color: #6f7484;
+}
+
+.details-section p + p {
+  margin-top: 20px;
+}
+
+.details-section + .details-section {
+  margin-top: 60px;
+}
+
+.edication-background .education-label {
+  position: relative;
+  padding-left: 0px;
+}
+.edication-background .education-label p{
+  font-size: 2rem;
+}
+
+.edication-background .education-label:before {
+  position: absolute;
+  content: '';
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background: none;
+  top: 7px;
+  left: 0;
+}
+
+.edication-background .education-label .study-year {
+  font-size: 1.6rem;
+  color: #6f7484;
+  margin-bottom: 5px;
+  display: inline-block;
+}
+
+.edication-background .education-label h5 {
+  color: #232630;
+  font-family: "Poppins", sans-serif;
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.edication-background .education-label h5 span {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #6f7484;
+  margin-left: 10px;
+}
+
+.edication-background .education-label + .education-label {
+  margin-top: 20px;
+}
+
+.experience .experience-section {
+  position: relative;
+  padding-left: 25px;
+}
+
+.experience .experience-section:before {
+  position: absolute;
+  content: '';
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background: #039be5;
+  top: 7px;
+  left: 0;
+}
+
+.experience .experience-section .service-year {
+  font-size: 1.6rem;
+  color: #6f7484;
+  margin-bottom: 5px;
+  display: inline-block;
+}
+
+.experience .experience-section h5 {
+  color: #232630;
+  font-family: "Poppins", sans-serif;
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.experience .experience-section p {
+  font-size: 2rem;
+
+}
+
+.experience .experience-section h5 span {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #6f7484;
+  margin-left: 10px;
+}
+
+.experience .experience-section + .experience-section {
+  margin-top: 20px;
+}
+
+.special-qualification ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-size: 0;
+}
+
+.special-qualification ul li {
+  font-size: 1.4rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #6f7484;
+  position: relative;
+  padding-left: 20px;
+}
+
+.special-qualification ul li:before {
+  position: absolute;
+  content: '\f058';
+  font-family: 'Font Awesome\ 5 Free';
+  font-weight: 900;
+  top: 3px;
+  left: 0;
+  font-size: 1.2rem;
+  color: #aaa;
+}
+
+.special-qualification ul li + li {
+  margin-top: 8px;
+}
+
+.portfolio .portfolio-slider .portfolio-item {
+  position: relative;
+}
+
+.portfolio .portfolio-slider .portfolio-item:hover .overlay a {
+  margin: 0 5px;
+  opacity: 1;
+}
+
+.portfolio .portfolio-slider .portfolio-item .overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  z-index: 999;
+  width: 100%;
+  text-align: center;
+}
+
+.portfolio .portfolio-slider .portfolio-item .overlay a {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  line-height: 40px;
+  margin: 0 23px;
+  opacity: 0;
+  color: #246df8;
+}
+
+.portfolio .portfolio-slider .portfolio-item .overlay a svg {
+  height: 20px;
+}
+
+.portfolio-slider {
+  position: relative;
+}
+
+.portfolio-slider .owl-item.active .portfolio-item:before {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  left: 0;
+  width: 100%;
+  content: '';
+  background-image: -webkit-gradient(linear, left top, right top, from(white), to(rgba(255, 255, 255, 0)));
+  background-image: -webkit-linear-gradient(left, white, rgba(255, 255, 255, 0));
+  background-image: -o-linear-gradient(left, white, rgba(255, 255, 255, 0));
+  background-image: linear-gradient(to right, white, rgba(255, 255, 255, 0));
+}
+
+.portfolio-slider .owl-item.active + .owl-item.active .portfolio-item:before {
+  height: 0;
+  width: 0;
+  background-image: transparent;
+}
+
+.portfolio-slider .owl-item.active + .owl-item.active + .owl-item.active .portfolio-item:before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  content: '';
+  background-image: -webkit-gradient(linear, right top, left top, from(white), to(rgba(255, 255, 255, 0)));
+  background-image: -webkit-linear-gradient(right, white, rgba(255, 255, 255, 0));
+  background-image: -o-linear-gradient(right, white, rgba(255, 255, 255, 0));
+  background-image: linear-gradient(to left, white, rgba(255, 255, 255, 0));
+}
+
+.portfolio-slider .owl-nav .owl-next,
+.portfolio-slider .owl-nav .owl-prev {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  font-size: 1.8rem;
+  outline: none;
+}
+
+.portfolio-slider .owl-nav .owl-next {
+  right: 0;
+}
+
+.portfolio-slider .owl-nav .owl-prev {
+  left: 0;
+}
+
+.personal-information {
+  margin-top: 60px;
+}
+
+.personal-information ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-size: 0;
+}
+
+.personal-information ul li {
+  font-size: 1.4rem;
+  color: #6f7484;
+}
+
+.personal-information ul li span {
+  font-size: "Poppins", sans-serif;
+  font-weight: 500;
+  margin-right: 5px;
+  color: #232630;
+}
+
+.personal-information ul li + li {
+  margin-top: 8px;
+}
+
+.information {
+  height: 100%;
+  padding: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  border-radius: 3px;
+  background-image: -webkit-gradient(linear, right top, left top, from(rgba(247, 249, 252, 0)), to(#f7f9fc));
+  background-image: -webkit-linear-gradient(right, rgba(247, 249, 252, 0), #f7f9fc);
+  background-image: -o-linear-gradient(right, rgba(247, 249, 252, 0), #f7f9fc);
+  background-image: linear-gradient(to left, rgba(247, 249, 252, 0), #f7f9fc);
+}
+
+
+
+.information ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-size: 0;
+}
+
+.information ul li {
+  font-size: 1.4rem;
+  color: #6f7484;
+}
+
+.information div strong {
+  font-size: "Poppins", sans-serif;
+  font-weight: 500;
+  margin-right: 5px;
+  color: #232630;
+}
+
+.information div {
+  margin-top: 8px;
+}
+
+@media all and (max-width: 991px) {
+  .information-and-contact {
+    margin-top: 60px;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .skill-and-profile {
+    display: block;
+  }
+  .skill-and-profile .social-profile {
+    margin-top: 20px;
+  }
+  .portfolio-slider .owl-item.active .portfolio-item:before {
+    height: 0;
+    width: 0;
+  }
+}
+
+@media all and (max-width: 439px) {
+  .skill-and-profile .skill a {
+    margin-bottom: 10px;
+  }
+}
+
+/*---------------------------------------------
+	08.0 Company Style
+---------------------------------------------*/
+
+/*---------------------------------------------
+	09.0 App Style
+---------------------------------------------*/
+
+/*---------------------------------------------
+    10.0 Form Style
+---------------------------------------------*/
+form {
+  position: relative;
+}
+
+/*---------------------------------------------
+	11.0 Header Style
+---------------------------------------------*/
+
+/*---------------------------------------------
+	12.0 Nav Style
+---------------------------------------------*/
+
+.btn-light:not(:disabled):not(.disabled):active {
+  border-bottom: 0;
+}
+
+/*---------------------------------------------
+	13.0 Animated-number Style
+---------------------------------------------*/
+
+/*---------------------------------------------
+	14.0 Call-to-action Style
+---------------------------------------------*/
+
+/*---------------------------------------------
+	15.0 Testimonial Style
+---------------------------------------------*/
+
+/*---------------------------------------------
+	16.0 Advice Style
+---------------------------------------------*/
+
+/*---------------------------------------------
+	17.0 Pricing Style
+---------------------------------------------*/
+
+/*---------------------------------------------
+	18.0 Progress-bar Style
+---------------------------------------------*/
+.professonal-skill .progress-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.professonal-skill .progress-group .progress-item {
+  width: calc(50% - 15px);
+  margin-top: 10px;
+}
+
+.professonal-skill .progress-group .progress-item .progress-body {
+  position: relative;
+}
+
+.professonal-skill .progress-group .progress-item .progress-body .progress {
+  border-radius: 0;
+  background: #f0f5fb;
+  height: 5px;
+}
+
+.professonal-skill .progress-group .progress-item .progress-body .progress .progress-bar {
+  background: #246df8;
+}
+
+.professonal-skill .progress-group .progress-item .progress-body .progress-to {
+  position: absolute;
+  top: -25px;
+  right: 0;
+}
+
+.professonal-skill .progress-group .progress-item:nth-child(2n) {
+  flex-break: before;
+}
+
+@media all and (max-width: 767px) {
+  .professonal-skill .progress-group {
+    display: block;
+  }
+  .professonal-skill .progress-group .progress-item {
+    width: 100%;
+    margin-top: 20px;
+  }
+}
+
+/*----------------------------------------------
+  19.0 Pagination Style
+-----------------------------------------------*/
+
+/*---------------------------------------------
+	20.0 Footer Style
+---------------------------------------------*/
+
+/*---------------------------------------------
+	21.0 Employer Style
+---------------------------------------------*/
+
+/*---------------------------------------------
+	Employer Details
+---------------------------------------------*/
+
+@media all and (max-width: 100%) {
+  .information {
+    padding: 20px;
+  }
+  .information h4 {
+    margin-bottom: 20px;
+  }
+}
+
+/*---------------------------------------------
+	22.0 About Style
+---------------------------------------------*/
+
+/*---------------------------------------------
+	23.0 Working Process Style
+---------------------------------------------*/
+
+/*---------------------------------------------
+	24.0 FAQ Style
+---------------------------------------------*/
+
+/*---------------------------------------------
+	25.0 Blog Style
+---------------------------------------------*/
+
+/*---------------------------------------------
+	26.0 Contact Style
+---------------------------------------------*/
+
+/*---------------------------------------------
+	27.0 Payment Style
+---------------------------------------------*/

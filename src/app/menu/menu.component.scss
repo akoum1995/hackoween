@@ -1,0 +1,133 @@
+
+.header1{
+  padding-top: 50px !important;
+}
+.navbar.navbar-primary {
+  background-color: #000000d4 !important;
+  color: #ffffff !important;
+}
+.navbar {
+  border: 0;
+  border-radius: 3px;
+  padding: 0px 0;
+}
+
+.user-photo {
+   width: 34px;
+  height: 34px;
+  object-fit: cover;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.dropdown-user {
+  padding-top: 8px !important;
+  padding-bottom: 10px !important;
+}
+
+.navbar .navbar-nav>li>a {
+  // padding-top: 8px !important;
+}
+
+.main-raised {
+  margin: 100px 30px 0;
+  border-radius: 6px;
+  box-shadow: 0 16px 24px 2px rgba(0, 0, 0, .14), 0 6px 30px 5px rgba(0, 0, 0, .12), 0 8px 10px -5px rgba(0, 0, 0, .2);
+  background-color: #ffffff !important;
+  padding: 20px;
+  // max-height: 87vh;
+  // height: 87vh;
+}
+.page-content{
+  padding-top: 0px !important;
+}
+.navbar-brand>img {
+  display: block !important;
+  // height: 100% !important;
+  height: 32px;
+  cursor: pointer;
+}
+table {
+  width: 100%;
+}
+
+
+body {
+  background-color: #ffffff !important;
+}
+
+.photo-menu{
+  padding-top: 0px !important;
+
+}
+.navbar .navbar-nav > li > a {
+  //  padding-bottom: 7px !important;
+  //margin-top: 7px;
+}
+
+.btn-login{
+  padding: 2px 25px !important;
+  font-weight: 500 !important;
+  color: whitesmoke !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  border: none !important;
+  box-shadow: none !important;
+  // color: #007bff !important;
+ }
+
+ .btn-outline-register {
+  color: #007bff !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  font-weight: 500 !important;
+  border-color: #007bff !important;
+  border: 1px solid !important;
+  // padding: 0px 25px !important;
+
+  padding-bottom: 7px !important;
+  padding-top: 7px !important;
+
+
+}
+.btn-outline-login:hover {
+  color: #fff !important;
+  background-color: #007bff !important;
+  border-color: #007bff !important;
+  // padding: 0px 25px !important;
+  //border:1px solid !important
+
+}
+.btn-login:hover {
+  color: #fff !important;
+  // background-color: #007bff70!important;
+  // border-color: #007bff !important;
+  // padding: 0px 25px !important;
+  //border:1px solid !important
+
+}
+
+ng::deep .navbar .navbar-nav > li > a.btn:hover{
+  box-shadow: none;
+  max-height: 40px;
+
+}
+ng::deep .navbar .navbar-nav > li > a.btn{
+  box-shadow: none;
+  max-height: 37px;
+}
+ng::deep .navbar-brand[_ngcontent-c1] {
+  height: 100%;
+  padding: 10px 0px;
+  padding-right: 30px;
+}
+
+ng::deep.mat-chip.mat-standard-chip.mat-chip-disabled {
+  opacity: 1;
+ color: black !important;
+ background-color: #e0e0e0 !important;
+}
+
+.job-company-info > h3 {
+  margin: 5px 0 10px;
+}

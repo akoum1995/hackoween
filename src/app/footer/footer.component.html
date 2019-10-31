@@ -1,0 +1,63 @@
+<footer class="footer1 foot ">
+
+
+  <!-- ===== Start of Footer Copyright Section ===== -->
+  <div class="copyright">
+    <div class="container">
+      <div class="col-xs-12 col-md-6">
+        <!-- Visible only on screens >= md -->
+        <ul class="social-btns list-inline text-left d-none d-md-block">
+          <ng-container *ngTemplateOutlet="emailTemplate"></ng-container>
+        </ul>
+      </div>
+
+      <!-- Visible only on screens < than md -->
+      <div class="col-xs-12 col-md-6 d-md-none text-center">
+        <ng-container *ngTemplateOutlet="followUsTemplate"></ng-container>
+      </div>
+
+    </div>
+  </div>
+  <!-- ===== End of Footer Copyright Section ===== -->
+
+</footer>
+
+
+<ng-template #emailTemplate>
+  <li>
+    <a href="mailto:contact@fivepoints.fr">
+      <i class="fa fa-envelope-o"></i> contact@fivepoints.fr
+    </a>
+  </li>
+</ng-template>
+
+<ng-template #followUsTemplate>
+  <!-- Start of Social Media Buttons -->
+  <ul class="social-btns list-inline">
+    <li>
+      <a target="__blank" href="https://www.facebook.com/FivePoints5P/" class="social-btn-roll facebook"
+        style="top: 3px;">
+        <div class="social-btn-roll-icons">
+          <i class=" fa fa-facebook"></i>
+        </div>
+      </a>
+    </li>
+    <li>
+      <a target="__blank" href="https://www.instagram.com/fivep_thetalentpool/?hl=fr" class="social-btn-roll instagram"
+        style="top: 3px;">
+        <div class="social-btn-roll-icons">
+          <i class="fa fa-instagram"></i>
+        </div>
+      </a>
+    </li>
+    <li>
+      <a target="__blank" href="https://www.linkedin.com/company/fivepoints-the-talent-pool/"
+        class="social-btn-roll linkedin" style="top: 3px;">
+        <div class="social-btn-roll-icons">
+          <i class="fa fa-linkedin"></i>
+        </div>
+      </a>
+    </li>
+  </ul>
+  <!-- End of Social Media Buttons -->
+</ng-template>
